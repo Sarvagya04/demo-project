@@ -5,5 +5,5 @@ services:
         build: .
         container_name: sarvagyac3
         ports:
-            - 2580:80
+            - 2540:80
         restart: always
