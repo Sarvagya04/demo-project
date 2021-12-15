@@ -3,7 +3,7 @@ services:
     sarvagyaproject1:
         image: sarvagyahttpd:v0001
         build: .
-        container_name: sarvagyac2
+        container_name: sarvagyac3
         ports:
             - 2580:80
         restart: always
