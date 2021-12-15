@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    sarvagyaproject1:
+        image: sarvagyahttpd:v0001
+        build: .
+        container_name: sarvagyac1
+        ports:
+            - 1234:80
+        restart: always
